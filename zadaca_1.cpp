@@ -164,7 +164,7 @@ void zadaca_1::Rekurzija_pechati(int k)
 //asd
 
 
-// 2D polinja zadaca 13:
+// 2D polinja zadaca 13 od C_PREDAVANJA word file "09_zadaci za domasno":
 
 void zadaca_1::Generiranje_polinja(int red, int kol)
 {
