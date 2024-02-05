@@ -15,6 +15,8 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 add_executable(Zadaci_Martin_Vezbi
   main.cpp
   zadaca_1.h zadaca_1.cpp
+  zivotno.h zivotno.cpp
+  datum.h datum.cpp
 )
 target_link_libraries(Zadaci_Martin_Vezbi Qt${QT_VERSION_MAJOR}::Core)
 
