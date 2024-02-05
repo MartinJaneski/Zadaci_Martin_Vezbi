@@ -15,6 +15,7 @@ public:
     int mesec;
     int godina;
 
+    Datum();
 };
 
 #endif // DATUM_H
