@@ -1,6 +1,6 @@
 #include "zivotno.h"
 
-Zivotno::Zivotno() {}
+Zivotno::Zivotno(){};
 
 void Zivotno::Set_Birth_date(int day, int month, int year)
 {
