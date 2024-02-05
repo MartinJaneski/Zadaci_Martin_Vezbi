@@ -11,11 +11,13 @@ public:
     ~Datum();
 
     void Vnesi_datum(int day, int month, int year);
+    int getDen() const;
+
+private:
     int den;
     int mesec;
     int godina;
 
-    Datum();
 };
 
 #endif // DATUM_H

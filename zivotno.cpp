@@ -22,7 +22,7 @@ void Zivotno::Postavi_karakteristiki(char type, char sex, QString name)
         tip = type;
         break;
     default:
-        //error
+        break;
     }
 
     if (sex == 'm' || sex == 'z')

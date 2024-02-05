@@ -14,4 +14,9 @@ void Datum::Vnesi_datum(int day, int month, int year)
         den = day;
 }
 
+int Datum::getDen() const
+{
+    return den;
+}
+
 
