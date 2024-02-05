@@ -55,5 +55,19 @@ void Zivotno::Sleden_Vaksajn()
             vak_den = vak_den - Validni_denovi[vak_mesec-1];
             vak_mesec++;
         }
+        break;
+    case 'p':
+        vak_mesec += 6;
+        if (vak_mesec > 12)
+        {
+            vak_mesec = vak_mesec - 12;
+            vak_god++;
+        }
+        if (vak_den > Validni_denovi[vak_mesec - 1])
+        {
+            vak_den = vak_den - Validni_denovi[vak_mesec-1];
+            vak_mesec++;
+        }
+        break;
     }
 }
