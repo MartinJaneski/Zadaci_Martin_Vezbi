@@ -11,7 +11,6 @@ public:
     ~Datum();
 
     void Vnesi_datum(int day, int month, int year);
-private:
     int den;
     int mesec;
     int godina;
