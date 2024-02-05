@@ -197,8 +197,3 @@ void zadaca_1::Generiranje_polinja(int red, int kol)
 }
 // test
 
-void zadaca_1::ValidenDatum(int day, int month, int year)
-{
-    int Validni_denovi[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-}
-

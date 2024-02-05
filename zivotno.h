@@ -16,6 +16,8 @@ public:
     //         Datum_nosenje_vo_zoo(zday, zmonth, zyear)
     Zivotno();
     ~Zivotno();
+
+    void Sleden_Vaksajn();
 private:
     Datum Datum_ragjanje;
     Datum Datum_nosenje_vo_zoo;

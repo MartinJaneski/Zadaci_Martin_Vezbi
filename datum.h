@@ -9,7 +9,8 @@ public:
     Datum(int = 1, int = 1, int = 2024);
     void print() const;
     ~Datum();
-    int Validen_den(int day, int month);
+
+    void Vnesi_datum(int day, int month, int year);
 private:
     int den;
     int mesec;
