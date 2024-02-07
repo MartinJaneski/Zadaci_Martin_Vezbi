@@ -18,6 +18,8 @@ add_executable(Zadaci_Martin_Vezbi
   zivotno.h zivotno.cpp
   datum.h datum.cpp
   dropki.h dropki.cpp
+  artikl.h artikl.cpp
+  pantoloni.h pantoloni.cpp
 )
 target_link_libraries(Zadaci_Martin_Vezbi Qt${QT_VERSION_MAJOR}::Core)
 
