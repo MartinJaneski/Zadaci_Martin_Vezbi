@@ -36,7 +36,7 @@ void Dropki::set_broitel_imenitel(int num, int den)
         setImenitel(1);
 }
 
-
+// funkcija koja ke gi uprosti dropkite
 void Dropki::Uprosti()
 {
     int min, NZD=1;
@@ -55,7 +55,7 @@ void Dropki::Uprosti()
         min = den;
 
     // naogjanje najmal zaednicki delitel na broitel i imenitel
-    for (int i = 2; i <= min/2; i++)
+    for (int i=2; i <= min/2; i++)
     {
         if (num%i==0 && den%i == 0)
             NZD = i;

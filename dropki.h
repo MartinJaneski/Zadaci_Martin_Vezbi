@@ -17,12 +17,11 @@ public:
 
     Dropki operator/(const Dropki &other) const;
 
-    //int NZD(const Dropki dropka);
+    void Uprosti();
+
 private:
     int m_broitel;
     int m_imenitel;
-
-    void Uprosti();
 };
 
 #endif // DROPKI_H
