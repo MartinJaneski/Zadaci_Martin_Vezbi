@@ -20,6 +20,8 @@ add_executable(Zadaci_Martin_Vezbi
   dropki.h dropki.cpp
   artikl.h artikl.cpp
   pantoloni.h pantoloni.cpp
+  stedac.h stedac.cpp
+  covek.h covek.cpp
 )
 target_link_libraries(Zadaci_Martin_Vezbi Qt${QT_VERSION_MAJOR}::Core)
 
