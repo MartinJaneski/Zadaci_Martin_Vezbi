@@ -28,9 +28,16 @@ public:
 private:
     static float m_kamata;
     static int m_broj_stedaci;
+
     int m_bilans;
     int m_kredit;
+
     Covek m_lice;
+
+    if (m_lice.Ime() == "Martin" && m_lice.Prezime() == "Janeski")
+    {
+        m_bilans = (long int)m_bilans;
+    }
 };
 
 #endif // STEDAC_H

@@ -2,6 +2,7 @@
 #define COVEK_H
 #include <QString>
 
+
 class Covek
 {
     friend class Stedac;

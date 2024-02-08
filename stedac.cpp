@@ -51,3 +51,4 @@ void Stedac::setLice(const Covek &newLice)
 {
     m_lice = newLice;
 }
+
