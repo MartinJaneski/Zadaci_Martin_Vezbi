@@ -16,6 +16,7 @@ public:
     void Set_nosenje_date(int day, int month, int year);
     void Sleden_Vaksajn();
     void Postavi_karakteristiki(char type, char sex, QString name);
+
 private:
     Datum Datum_ragjanje;
     Datum Datum_nosenje_vo_zoo;

@@ -22,6 +22,8 @@ add_executable(Zadaci_Martin_Vezbi
   pantoloni.h pantoloni.cpp
   stedac.h stedac.cpp
   covek.h covek.cpp
+  zivotno_virtual.h zivotno_virtual.cpp
+  ptici.h ptici.cpp
 )
 target_link_libraries(Zadaci_Martin_Vezbi Qt${QT_VERSION_MAJOR}::Core)
 

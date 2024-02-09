@@ -19,4 +19,24 @@ int Datum::getDen() const
     return den;
 }
 
+int Datum::getMesec() const
+{
+    return mesec;
+}
+
+void Datum::setMesec(int newMesec)
+{
+    mesec = newMesec;
+}
+
+int Datum::getGodina() const
+{
+    return godina;
+}
+
+void Datum::setGodina(int newGodina)
+{
+    godina = newGodina;
+}
+
 
