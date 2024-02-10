@@ -24,6 +24,8 @@ add_executable(Zadaci_Martin_Vezbi
   covek.h covek.cpp
   zivotno_virtual.h zivotno_virtual.cpp
   ptici.h ptici.cpp
+  pravoagolnik.h pravoagolnik.cpp
+  kvadrat.h kvadrat.cpp
 )
 target_link_libraries(Zadaci_Martin_Vezbi Qt${QT_VERSION_MAJOR}::Core)
 
