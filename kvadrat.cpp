@@ -1,14 +1,25 @@
 #include "kvadrat.h"
+#include "QDebug"
 
-Kvadrat::Kvadrat() {}
+template<typename T>
+/* errorot kaj konstruktor ne znam zosto se pojavuva.
+ * googlanje i chatgpt ne bea mnogu od korist
+ ask Mia later probably */
+Kvadrat<T>::Kvadrat()
+{
+    qDebug()<<"test";
+}
 
-T Kvadrat::strana() const
+template<typename T>
+T Kvadrat<T>::strana() const
 {
     return m_strana;
 }
 
-void Kvadrat::setStrana(const T &newStrana)
+template<typename T>
+void Kvadrat<T>::setStrana(const T &newStrana)
 {
     m_strana = newStrana;
 }
 
+template class Kvadrat<double>;
